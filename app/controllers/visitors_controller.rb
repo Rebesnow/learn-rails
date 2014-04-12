@@ -2,7 +2,5 @@ class VisitorsController < ApplicationController #We define the class and name i
 												#ApplicationController class which is defined in the Rails API.
 	def new
 		@owner = Owner.new
-		flash.now[:notice] = 'Welcome!'
-		flash.now[:alert] = 'My Birthday is soon!'
 	end
 end
