@@ -4,11 +4,11 @@
 class Owner # this line defines the class and assigns a name.
 
 def name # define method 1
-name = 'Foobar Kadigan' # ruby recognizes a string when it is btw ' '
+name = 'Rebeca Polo' # ruby recognizes a string when it is btw ' '
 end
 
 def birthdate # define method 2
-birthdate = Date.new(1990, 12, 22) #same synthax in line 
+birthdate = Date.new(1986, 04, 23) #same synthax in line 
 end
 
 def countdown # define method 3 #most complex code in the class
